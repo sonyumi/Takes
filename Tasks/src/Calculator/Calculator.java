@@ -327,7 +327,7 @@ public class Calculator extends WindowAdapter implements ActionListener {
 		}
 		if (st.equals(".")) {
 			if (mainView.getText().length() == 0) {
-				// main textfield에 아무것도 없이 .만 입력한경우
+				// main textfield에 아무것도 없이 소수점만 입력한경우
 				mainView.setText("0" + ".");
 			} else { // main textfield 에 한자리 이상의 값에 소수점을 추가하는경우
 				if (mainView.getText().indexOf(".") > 0) {
